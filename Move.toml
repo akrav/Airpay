@@ -1,0 +1,15 @@
+[package]
+name = 'Airpay'
+version = '1.0.0'
+#[dependencies.AptosFramework]
+#git = 'https://github.com/aptos-labs/aptos-core.git'
+#rev = 'devnet'
+#subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" }
+#switchboard-v2 = { git = "https://github.com/switchboard-xyz.git", subdir = "switchboard-v2", rev = "ffd6e7f337c602574c33a701d685f696fc19ef8e"}
+
+
+[addresses]
+hypermatter ='0x1'

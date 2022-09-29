@@ -1,0 +1,6 @@
+[package]
+name = 'Airpay'
+version = '1.0.0'
+
+[dependencies]
+switchboard-v2 = "0.1.14"
