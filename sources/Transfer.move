@@ -1,7 +1,7 @@
 script {
     // use Sender::Coins;
     use aptos_framework::coin;
-    use switchboard-v2
+    // use switchboard::aggregator;
 
 
     const MODULE_ADMIN: address = @hypermatter;

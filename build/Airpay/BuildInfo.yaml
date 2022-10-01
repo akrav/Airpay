@@ -8,13 +8,14 @@ compiled_package_info:
     core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
     hypermatter: "0000000000000000000000000000000000000000000000000000000000000001"
     std: "0000000000000000000000000000000000000000000000000000000000000001"
+    switchboard: "0000000000000000000000000000000000000000000000000000000000000002"
     vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: 0DEB2403CDB8DC037670A8FF99196175A6D583AA207375EB9FAF0D81F1B86724
+  source_digest: C955E338092104A5F12C0D6514256842F2628AEBC5E827191533AA61603B22C4
   build_flags:
-    dev_mode: true
-    test_mode: true
-    generate_docs: false
-    generate_abis: false
+    dev_mode: false
+    test_mode: false
+    generate_docs: true
+    generate_abis: true
     install_dir: ~
     force_recompilation: false
     additional_named_addresses: {}
@@ -24,3 +25,4 @@ dependencies:
   - AptosFramework
   - AptosStdlib
   - MoveStdlib
+  - Switchboard
