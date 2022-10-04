@@ -9,7 +9,7 @@ version = '1.0.0'
 [dependencies]
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" }
 Switchboard = { git = "https://github.com/switchboard-xyz/switchboard-aptos-public.git", subdir = "switchboard", rev = "24ed79c512de3a3455679ba3c66544246cd07959"}
-
+#Switchboard = { git = "https://github.com/switchboard-xyz/aptos-sdk.git", subdir = "switchboard-move/switchboard", rev = "12bef5c36e034bb3b84d469fb6d131f0db606d1c" }
 
 [addresses]
 hypermatter ='0x1'
